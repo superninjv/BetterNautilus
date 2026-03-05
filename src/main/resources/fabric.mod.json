@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "betternautilus",
+  "version": "${version}",
+  "name": "Better Nautilus",
+  "description": "Adds crafting recipes for nautilus armor, custom enchantments, and horse-style trait breeding for nautiluses.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.betternautilus.BetterNautilus"
+    ],
+    "client": [
+      "com.betternautilus.BetterNautilusClient"
+    ]
+  },
+  "mixins": [
+    "betternautilus.mixins.json",
+    "betternautilus.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "fabric-api": ">=0.141.1",
+    "minecraft": "~1.21.11"
+  }
+}

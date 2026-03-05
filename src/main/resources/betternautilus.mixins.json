@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.betternautilus.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AbstractNautilusEntityMixin",
+    "NautilusArmorEnchantMixin",
+    "NautilusEntityMixin",
+    "NautilusRecipeToggleMixin",
+    "NautilusSpawnMixin",
+    "ZombieNautilusEntityMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nautilus_shell": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "minecraft:nautilus_shell" }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_nautilus_shell"]],
+  "rewards": {
+    "recipes": ["betternautilus:golden_nautilus_armor"]
+  }
+}

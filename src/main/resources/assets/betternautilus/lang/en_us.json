@@ -1,0 +1,11 @@
+{
+  "enchantment.betternautilus.nautilus_protection": "Nautilus Protection",
+  "enchantment.betternautilus.nautilus_power": "Nautilus Power",
+  "enchantment.betternautilus.nautilus_swiftness": "Nautilus Swiftness",
+  "attribute.betternautilus.dash_strength": "Dash Strength",
+  "attribute.betternautilus.dash_attack_damage": "Dash Attack Damage",
+  "betternautilus.stat_tooltip.health": "❤ Health",
+  "betternautilus.stat_tooltip.speed": "⚡ Speed",
+  "betternautilus.stat_tooltip.dash": "→ Dash",
+  "betternautilus.stat_tooltip.attack": "⚔ Attack"
+}
