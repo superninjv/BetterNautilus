@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["CCC", "CSC", "CCC"],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "S": "minecraft:nautilus_shell"
+  },
+  "result": {
+    "id": "minecraft:copper_nautilus_armor",
+    "count": 1
+  }
+}
